@@ -1,4 +1,4 @@
-package me.kmj.entity;
+package me.kmj.gather.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -18,7 +18,7 @@ public class Member {
     @Column(length = 10)
     private String id;
     
-    @Column(length = 100)
+    @Column(length = 100, nullable = false)
     private String name;
     
     @Column(length = 10)

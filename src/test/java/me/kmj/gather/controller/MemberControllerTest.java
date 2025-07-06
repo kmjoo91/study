@@ -1,8 +1,8 @@
-package me.kmj.controller;
+package me.kmj.gather.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import me.kmj.entity.Member;
-import me.kmj.service.MemberService;
+import me.kmj.gather.entity.Member;
+import me.kmj.gather.service.MemberService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureWebMvc;

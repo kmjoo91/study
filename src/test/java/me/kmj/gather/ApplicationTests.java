@@ -1,4 +1,4 @@
-package me.kmj;
+package me.kmj.gather;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

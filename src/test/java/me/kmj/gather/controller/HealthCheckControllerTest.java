@@ -1,4 +1,4 @@
-package me.kmj.controller;
+package me.kmj.gather.controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,17 +12,10 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest
 @AutoConfigureWebMvc
-class HelloControllerTest {
+class HealthCheckControllerTest {
 
     @Autowired
     private MockMvc mockMvc;
-
-    @Test
-    void helloShouldReturnDefaultMessage() throws Exception {
-        mockMvc.perform(get("/"))
-                .andExpect(status().isOk())
-                .andExpect(content().string("Hello, Spring Boot!"));
-    }
 
     @Test
     void healthShouldReturnOK() throws Exception {

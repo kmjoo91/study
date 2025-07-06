@@ -1,6 +1,6 @@
-package me.kmj.repository;
+package me.kmj.gather.repository;
 
-import me.kmj.entity.Member;
+import me.kmj.gather.entity.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

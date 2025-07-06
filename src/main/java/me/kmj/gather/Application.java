@@ -1,4 +1,4 @@
-package me.kmj;
+package me.kmj.gather;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
